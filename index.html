@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signos</title>
+</head>
+
+<body>
+
+    <h1> BUSQUE UM SIGNO </h1>
+
+    <div>
+        <label for="signos">Escolha o seu signo:</label>
+        <select id="signos">
+            <option value="Áries">Áries</option>
+            <option value="Touro">Touro</option>
+            <option value="Gêmeos">Gêmeos</option>
+            <option value="Câncer">Câncer</option>
+            <option value="Leão">Leão</option>
+            <option value="Virgem">Virgem</option>
+            <option value="Libras">Libra</option>
+            <option value="Escorpião">Escorpião</option>
+            <option value="Sagitário">Sagitário</option>
+            <option value="Capricórnio">Capricórnio</option>
+            <option value="Aquário">Aquário</option>
+            <option value="Peixes">Peixes</option>
+        </select>
+    </div>
+
+    <img id="img" alt="">
+
+
+    <button onclick="escolhaSigno()">Buscar</button>
+    <fieldset>
+        <p id="frase"></p><!--Experimente colocar em uma h1 ou P ao invés de uma div -Fher -->
+    </fieldset>
+
+    <footer>Criado por Deivison Vargas &copy;
+    </footer>
+
+    <script>
+        function escolhaSigno() {
+            var text
+
+            var signos = document.querySelector("#signos").value;
+
+            switch (signos) {
+                case "Áries":
+                    text = "Os arianos são pessoas confiantes e impetuosas. No entanto, eles podem bater de frente com os outros porque são muito impacientes e honestos."
+
+                    document.body.style.backgroundImage = 'url(https://cdn.pixabay.com/photo/2015/02/17/08/25/horoscope-639126_960_720.jpg)'
+                    document.body.style.backgroundSize = 'cover'
+                    document.body.style.backgroundPosition = '100%'
+
+                    document.getElementById("img").src = "img/img1.webp"
+                    img.width = 100
+                    img.height = 150
+
+                    break
+
+                case "Touro":
+                    text = "Os taurinos são considerados leais e persistentes. Ao mesmo tempo, eles são frequentemente conhecidos como preguiçosos e teimosos."
+
+                    document.body.style.backgroundImage = 'url(https://cdn.pixabay.com/photo/2015/02/17/08/25/horoscope-639127_960_720.jpg)'
+                    document.body.style.backgroundSize = 'cover'
+                    document.body.style.backgroundPosition = '100%'
+
+                    document.getElementById("img").src = "img/img1.webp"
+                    img.width = 100
+                    img.height = 150
+
+                    break
+
+                case "Gêmeos":
+                    text = "Os geminianos são altamente inteligentes e sociáveis. Por outro lado, também são considerados superficiais e indecisos."
+
+                    document.body.style.backgroundImage = 'url(https://cdn.pixabay.com/photo/2015/02/17/08/24/horoscope-639122_960_720.jpg)'
+                    document.body.style.backgroundSize = 'cover'
+                    document.body.style.backgroundPosition = '100%'
+
+                    document.getElementById("img").src = "img/img1.webp"
+                    img.width = 100
+                    img.height = 150
+
+
+                    break
+
+                case "Câncer":
+                    text = "Os cancerianos são pessoas caridosas e amigos leais. Por outro lado, eles também tendem a ser agressivos e são conhecidos por ficarem rabugentos em algumas situações."
+
+                    document.body.style.backgroundImage = 'url(https://cdn.pixabay.com/photo/2015/02/22/09/38/horoscope-644862_960_720.jpg)'
+                    document.body.style.backgroundSize = 'cover'
+                    document.body.style.backgroundPosition = '100%'
+
+                    document.getElementById("img").src = "img/img1.webp"
+                    img.width = 100
+                    img.height = 150
+
+
+                    break
+
+                case "Leão":
+                    text = " Os leoninos são orgulhosos e corajosos, embora às vezes sejam um pouco arrogantes e competitivos demais."
+
+                    document.body.style.backgroundImage = 'url(https://cdn.pixabay.com/photo/2015/02/17/08/24/horoscope-639123_960_720.jpg)'
+                    document.body.style.backgroundSize = 'cover'
+                    document.body.style.backgroundPosition = '100%'
+
+                    document.getElementById("img").src = "img/img1.webp"
+                    img.width = 100
+                    img.height = 150
+
+                    break
+
+                case "Virgem":
+                    text = "Os virginianos são trabalhadores e organizados. Ao mesmo tempo, também são perfeccionistas, excessivamente críticos e que tendem a se preocupar muito."
+
+                    document.body.style.backgroundImage = 'url(https://cdn.pixabay.com/photo/2015/02/19/09/13/horoscope-641920_960_720.jpg)'
+                    document.body.style.backgroundSize = 'cover'
+                    document.body.style.backgroundPosition = '100%'
+
+                    document.getElementById("img").src = "img/img1.webp"
+                    img.width = 100
+                    img.height = 150
+
+                    break
+
+                case "Libras":
+                    text = " Libra é notoriamente o signo de pessoas extrovertidas e inteligentes. É sociável,vaidoso e odeia tomar decisões difíceis."
+
+                    document.body.style.backgroundImage = 'url(https://cdn.pixabay.com/photo/2015/02/22/09/38/horoscope-644863_960_720.jpg)'
+                    document.body.style.backgroundSize = 'cover'
+                    document.body.style.backgroundPosition = '100%'
+
+                    document.getElementById("img").src = "img/img1.webp"
+                    img.width = 100
+                    img.height = 150
+
+                    break
+
+                case "Escorpião":
+                    text = " Dizem que os escorpianos são caçadores de emoções. Eles também costumam ser invejosos e fascinados por tudo que é macabro."
+
+                    document.body.style.backgroundImage = 'url(https://cdn.pixabay.com/photo/2015/02/22/09/39/horoscope-644864_960_720.jpg)'
+                    document.body.style.backgroundSize = 'cover'
+                    document.body.style.backgroundPosition = '100%'
+
+                    document.getElementById("img").src = "img/img1.webp"
+                    img.width = 100
+                    img.height = 150
+
+                    break
+
+                case "Sagitário":
+                    text = "Os sagitarianos são aventureiros, altamente independentes e muito imaginativos. Por outro lado, eles também são considerados sinceros demais e impacientes."
+
+                    document.body.style.backgroundImage = 'url(https://cdn.pixabay.com/photo/2015/02/19/09/13/horoscope-641919_960_720.jpg)'
+                    document.body.style.backgroundPosition = '100%'
+                    document.body.style.backgroundSize = 'cover'
+
+                    document.getElementById("img").src = "img/img1.webp"
+                    img.width = 100
+                    img.height = 150
+
+                    break
+
+                case "Peixes":
+                    text = "As pessoas com Sol em Peixes são pacientes, sonhadoras, intuitivas, românticas, generosas, místicas e amáveis. São bem sensíveis e absorvem muito a energia de terceiros."
+                    document.body.style.backgroundImage = 'url(https://cdn.pixabay.com/photo/2015/02/17/08/25/horoscope-639125_960_720.jpg) '
+                    document.body.style.backgroundPosition = '100%'
+                    document.body.style.backgroundSize = 'cover'
+                    document.getElementById("img").src = "img/img1.webp"
+                    img.width = 100
+                    img.height = 150
+                    break
+
+                case "Capricórnio":
+                    text = "Dizem que é o signo de pessoas mais bonitas."
+
+                    document.body.style.backgroundImage = 'url(https://cdn.pixabay.com/photo/2015/03/17/15/25/horoscope-677900_960_720.jpg)'
+                    document.body.style.backgroundPosition = '100%'
+                    document.body.style.backgroundSize = 'cover'
+
+                    document.getElementById("img").src = "img/img1.webp"
+                    img.width = 100
+                    img.height = 100
+
+                    break
+
+                case "Aquário":
+                    text = "Os aquarianos são pessoas muito diretas e não gostam de trapaças e de coisas feitas por baixo dos panos. Alguns podem achá-los indiferentes ou frios, mas eles apenas mantêm suas emoções mais contidas do que a maioria. Os nativos desse signo têm uma personalidade muito fiel a si mesmo e prezam pela privacidade."
+                    document.body.style.backgroundImage = 'url(https://cdn.pixabay.com/photo/2015/02/17/08/24/horoscope-639124_960_720.jpg) '
+                    document.body.style.backgroundPosition = '100%'
+                    document.body.style.backgroundSize = 'cover'
+                    document.getElementById("img").src = "img/img1.webp"
+                    img.width = 100
+                    img.height = 100
+                    break
+
+                default:
+                    text = "Insira um signo existente"
+            }
+
+            document.querySelector("#frase").innerHTML = text
+        }
+    </script>
+
+
+</body>
+
+</html>

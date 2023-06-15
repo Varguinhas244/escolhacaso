@@ -1,0 +1,86 @@
+@font-face {
+    font-family: fonte1;
+    src: url(fonte/Pronave.ttf)
+}
+
+
+body {
+    background-image: url(https://tudoela.com/wp-content/uploads/2017/09/12-signos-do-zod%C3%ADaco-810x540.jpg);
+    background-size: cover;
+
+    text-align: center;
+}
+
+h1 {
+    color: #00ffff;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    font-family: fonte1;
+
+     background-color: #00ffff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#signos {
+    font: 35px;
+    margin-top: 100px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: solid #000000;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#img {
+    margin-right: 80%;
+}
+
+label {
+    font: 35px;
+    margin-top: 100px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: solid #000000;
+    color: #000000;
+    font-size: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    border: solid #000000;
+}
+fieldset {
+    background-color: #000000;
+    border-radius: 30px;
+}
+
+#frase {
+    background-color: #ffffff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+footer {
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0vh;
+    left: 0;
+    background-color: #0000008d;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+}
